@@ -1,0 +1,5 @@
+Welcome, this post is a quick explanation on how I build mask detection using [ResNet50](https://pytorch.org/hub/nvidia_deeplearningexamples_resnet50)as feature extractor and then use [Support Vector Machine (SVM)](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) + [Decision Tree](https://scikit-learn.org/stable/modules/tree.html#classification) with [stacking ensemble method](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html) as classifier.
+
+As tribute to fellow researcher, this app was based on research paper with title "[A hybrid deep transfer learning model with machine learning methods for face mask detection in the era of the COVID-19 pandemic](https://www.sciencedirect.com/science/article/pii/S0263224120308289)" written by Mohamed Loey, et al.
+
+For more information access my [article](https://dev.to/myxzlpltk/face-mask-detection-with-resnet50-and-svm-decision-tree-39fk).
